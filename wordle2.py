@@ -5,7 +5,10 @@ def check_answer(word,guess):
             result+=word[i]
         else:
             result+='*'
-    return result
+    if result == word:
+        return True
+    else:
+        return False
 
 
 print(check_answer('bench','danch'))
