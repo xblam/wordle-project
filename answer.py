@@ -5,3 +5,5 @@ def answer(result, answer):
         print('play again!')
 
 answer('**nch','bench')
+
+print('sometihng new')
